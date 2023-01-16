@@ -24,7 +24,7 @@ jobs:
           pip install -r test-requirements.txt
 
       - name: Test
-        run: tox
+        run: pytest --cov=testreport/coverage --html=testreport/index.html --cov-report html
 
       - name: Run Stoat Action
         uses: stoat-dev/stoat-action@v0
