@@ -26,6 +26,10 @@ jobs:
       - name: Test
         run: pytest
 
+      - name: Run Stoat Action
+        uses: stoat-dev/stoat-action@v0
+        if: always()
+
       - name: Generate Docs
         run: |
           pip install pdoc3
