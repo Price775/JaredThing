@@ -8,7 +8,7 @@ plugins:
     test:
       metadata:
         name: "Test Results"
-        path: test
+      path: test
     tests:
       metadata:
         name: "Test Results"
