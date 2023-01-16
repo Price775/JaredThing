@@ -1,3 +1,4 @@
+import pytest
 def passing_test():
     assert 5 == 5
     
