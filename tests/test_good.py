@@ -1,7 +1,5 @@
-import pytest
-
-def passing_test():
+def test_passing():
     assert 5 == 5
     
-def failing_test():
+def test_failing():
   assert 1 == 2
