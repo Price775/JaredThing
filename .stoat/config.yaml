@@ -5,6 +5,10 @@ plugins:
   job_runtime:
     enabled: true
   static_hosting:
+    test:
+      metadata:
+        name: "Test Results"
+        path: test
     tests:
       metadata:
         name: "Test Results"
